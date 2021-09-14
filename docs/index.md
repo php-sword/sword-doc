@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /ps-logo.png
 actionText: 开始使用
 actionLink: /doc/
 

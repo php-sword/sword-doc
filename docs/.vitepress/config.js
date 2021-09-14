@@ -1,17 +1,17 @@
 const base = process.env.BASE || '/'
-const nav = require('./configs/nav')
-const sidebar = require('./configs/sidebar')
+const nav = require('./nav')
+const sidebar = require('./sidebar')
 
 module.exports = {
-    title: 'PHP-Sword Doc',
+    title: 'PHP-Sword',
     description: '基于EasySwoole的PHP协程快速开发框架，让你更专注于业务代码的开发！',
     head: [
-        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/ps-logo.png' }]
     ],
     base: base,
     themeConfig: {
         repo: 'php-sword/sword',
-        logo: '/logo.svg',
+        logo: '/ps-logo.png',
         docsDir: 'docs',
         docsBranch: 'master',
 

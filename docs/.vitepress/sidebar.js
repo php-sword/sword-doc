@@ -42,11 +42,40 @@ const sidebar = {
                 }
             ]
         }
+    ],
+    'course': [
+        {
+            text: '基础教程',
+            children: [
+                {
+                    text: '教程导读',
+                    link: '/course/index'
+                },
+                {
+                    text: '实践开始',
+                    children: [
+                        {
+                            text: '准备工作',
+                            link: '/course/practice/ready'
+                        },
+                        {
+                            text: '创建HTTP服务器',
+                            link: '/course/practice/create'
+                        }
+                    ]
+                },
+                {
+                    text: 'Swoole',
+                    link: '/course/swoole'
+                }
+            ]
+        }
     ]
 }
 
 module.exports = {
     ['/doc/']: sidebar['doc'],
     ['/components/']: sidebar['components'],
-    // [getPath('/api/')]: 'auto'
+    ['/course/']: sidebar['course'],
+    // ['/api/]: 'auto'
 }
