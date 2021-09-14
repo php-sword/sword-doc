@@ -6,7 +6,7 @@ const sidebar = {
             children: [
                 {
                     text: '项目介绍',
-                    link: '/doc/index'
+                    link: '/doc/introduce'
                 },
                 {
                     text: '快速开始',

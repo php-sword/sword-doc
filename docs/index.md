@@ -2,10 +2,10 @@
 home: true
 heroImage: /ps-logo.png
 actionText: 开始使用
-actionLink: /doc/
+actionLink: /doc/introduce
 
-altActionText: Learn More
-altActionLink: /doc/
+altActionText: 基础教程
+altActionLink: /course/index
 
 features:
     - title: 💡 高性能
