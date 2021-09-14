@@ -59,14 +59,27 @@ const sidebar = {
                             link: '/course/practice/ready'
                         },
                         {
-                            text: '创建HTTP服务器',
+                            text: '创建新项目',
                             link: '/course/practice/create'
+                        },
+                        {
+                            text: '运行HTTP服务器',
+                            link: '/course/practice/http-server'
                         }
                     ]
                 },
                 {
                     text: 'Swoole',
                     link: '/course/swoole'
+                }
+            ]
+        },
+        {
+            text: '进阶内容',
+            children: [
+                {
+                    text: 'Mysql数据库',
+                    link: '/course/advanced/mysql'
                 }
             ]
         }
